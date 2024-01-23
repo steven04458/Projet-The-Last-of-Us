@@ -1,0 +1,10 @@
+.separator {
+    align-items: center;
+    width: 80%;
+    height: 2px;
+    background-color: black;
+    margin: 20px;
+}
+.header-container {
+    align-items: flex-end;
+}

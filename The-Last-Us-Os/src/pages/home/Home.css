@@ -66,8 +66,8 @@ main {
 .tab {
   position: absolute;
   display: flex;
-  width: 530px;
-  height: 225px;
+  width: 800px;
+  height: 390px;
   opacity: 0; 
   background-color: black;
   overflow: hidden;
