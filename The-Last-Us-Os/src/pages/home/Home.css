@@ -19,7 +19,6 @@ body {
 
 main {
   width: 600px;
-  height: 300px;
   font: 0.7rem impact,sans-serif;
 
   & .header-content {
