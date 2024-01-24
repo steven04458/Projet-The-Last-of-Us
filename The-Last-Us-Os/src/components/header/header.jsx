@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from "react-router-dom";
 import compteLogo from '../../assets/images/compte.png'
 import './header.css'
 import "../../index.css"
@@ -13,9 +14,9 @@ function HeaderPage() {
                 <h1>THE LAST OF US.</h1>
                 <h2>Part I</h2>
               </div>
-              <div className='compteLogo'>
+              <Link className='compteLogo' to={"/Home"}>
                 <img src={compteLogo} />
-              </div>
+              </Link>
             </div>
             <div className="separator"></div>
         </header>

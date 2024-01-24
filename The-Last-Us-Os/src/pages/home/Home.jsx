@@ -1,12 +1,10 @@
 import { useState } from 'react'
-import compteLogo from '../../assets/images/compte.png'
 import LDEN from '../../assets/images/Le-dernier-d-entre-nous.jpg'
 import Chap2Logo from "../../assets/images/Chapitre_zone_de_quarantaine.png"
 import Chap3Logo from "../../assets/images/La_P3Frie.png"
 import Chap4Logo from "../../assets/images/L3Fglise_de_Bill.png"
 import Chap5Logo from "../../assets/images/Pittsburgh.png"
 import './Home.css'
-import "../../index.css"
 import HeaderPage from "../../components/header/header"
 
 function Home() {
