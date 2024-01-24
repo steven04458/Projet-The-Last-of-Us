@@ -1,10 +1,18 @@
 .separator {
-    align-items: center;
-    width: 80%;
+    width: 96%;
     height: 2px;
     background-color: black;
     margin: 20px;
 }
-.header-container {
+.header-titre {
     align-items: flex-end;
+}
+.header-container {
+    justify-content: space-around;
+}
+.compteLogo img{
+    width: 60px;
+}
+.header-page {
+    justify-content: center;
 }

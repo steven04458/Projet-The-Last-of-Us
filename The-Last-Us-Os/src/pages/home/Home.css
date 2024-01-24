@@ -12,9 +12,6 @@
 body {
   background-color: gray;
   color: rgba(255,255,255,0.85);
-  background-image: url(../../assets/images/the-last-of-us-part-1-logo.png);
-  background-size: 100% auto;
-  background-repeat: no-repeat;
 }
 
 main {
@@ -59,7 +56,7 @@ main {
 
 .tabs { position: relative; }
 
-.form.is-active .tab{
+.compoChap.is-active .tab{
   opacity: 1;
 }
 .tab {

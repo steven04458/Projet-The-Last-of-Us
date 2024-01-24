@@ -7,10 +7,15 @@ function HeaderPage() {
 
   return (
     <>
-        <header className="header-page columnContainer alignCenter">
-            <div className='header-container columnContainer'>
+        <header className="header-page columnContainer">
+            <div className='header-container rowContainer'>
+              <div className='header-titre columnContainer'>
                 <h1>THE LAST OF US.</h1>
                 <h2>Part I</h2>
+              </div>
+              <div className='compteLogo'>
+                <img src={compteLogo} />
+              </div>
             </div>
             <div className="separator"></div>
         </header>

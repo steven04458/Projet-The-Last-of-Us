@@ -32,7 +32,7 @@ function Home() {
                         <button type='button' onClick={() => switchForm('chap5')}>05</button>
                     </div>
                     <div className='tabs'>
-                        <div className={`form ${activeForm === 'chap1' ? 'is-active' : ''}`}>
+                        <div className={`compoChap ${activeForm === 'chap1' ? 'is-active' : ''}`}>
                             <div className='tab'>
                                 <article className='tab-content'>
                                     <h3>Ville natale</h3>
@@ -46,7 +46,7 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className={`form ${activeForm === 'chap2' ? 'is-active' : ''}`}>
+                        <div className={`compoChap ${activeForm === 'chap2' ? 'is-active' : ''}`}>
                             <div className='tab'>
                                 <article className='tab-content'>
                                     <h3>Zone de quarantaine</h3>
@@ -59,7 +59,7 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className={`form ${activeForm === 'chap3' ? 'is-active' : ''}`}>
+                        <div className={`compoChap ${activeForm === 'chap3' ? 'is-active' : ''}`}>
                             <div className='tab'>
                                 <article className='tab-content'>
                                     <h3>La périphérie</h3>
@@ -74,7 +74,7 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className={`form ${activeForm === 'chap4' ? 'is-active' : ''}`}>
+                        <div className={`compoChap ${activeForm === 'chap4' ? 'is-active' : ''}`}>
                             <div className='tab'>
                                 <article className='tab-content'>
                                     <h3>La ville de Bill</h3>
@@ -88,7 +88,7 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className={`form ${activeForm === 'chap5' ? 'is-active' : ''}`}>
+                        <div className={`compoChap ${activeForm === 'chap5' ? 'is-active' : ''}`}>
                             <div className='tab'>
                                 <article className='tab-content'>
                                     <h3>Pittsburgh</h3>
